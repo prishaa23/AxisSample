@@ -27,5 +27,6 @@ public class grades {
                 System.out.println("Not correct marks");
             }
         }
+        //sample git modification
 }
 
