@@ -1,0 +1,4 @@
+The BufferedOutputStream class of the java.io package is used with other output streams to write the data (in bytes) more efficiently.
+
+It extends the OutputStream abstract class.
+
