@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>question6</title>
+    <style>
+      /* Set the size of the playing card */
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      
+      /* Set the initial rotation of the playing card */
+      .card {
+        transform: rotateY(0deg);
+        animation: spin 2s infinite linear;
+      }
+      
+      /* Define the keyframe animation for the card spin */
+      @keyframes spin {
+        0% {
+          transform: rotateY(0deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color:rgb(127, 208, 255);">
+    <h3>Rotating the image</h3>
+    <img class="card" src="E:\Axis\julius-drost-C8wlYF8ubBo-unsplash.jpg" alt="Playing Card">
+  </body>
+</html>
